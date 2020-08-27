@@ -1,87 +1,75 @@
 {
-    "metaDataVersion": "1.0.0",
-    "category": "com.microchip.ide.project",
-    "content": {
-        "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.avr128da48-3bit-ring-counter-mcc-example",
-        "version": "1.0.2",
-        "displayName": "3-bit Ring Counter MPLABX example",
-        "projectName": "avr128da48-3bit-ring-counter-mcc-example",
-        "shortDescription": "AVR128DA48 3-bit ring counter implementation using CCL peripheral",
-        "ide": {
-            "name": "MPLABX",
-            "semverRange": ">=5.40.0"
-        },
-        "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20.0"
-			}
-		],
-        "dfp": {
-            "name": "AVR-Dx_DFP",
-            "semverRange": "^1.3.65"
-        },
-        "configurator": {
-            "name": "MCC",
-            "semverRange": ">=3.95.0"
-        },
-        "device": {
-            "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.contentRef",
-            "content": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.device",
-                "name": "AVR128DA48",
-                "versionRange": "*"
-            }
-        },
-        "author": "Microchip",
-        "subcategories": [
-            "MCC",
-            [
-               "Peripherals", "CCL"
-            ],
-            [
-               "Peripherals", "USART"
-            ],
-            [
-               "Peripherals", "TCB"
-            ],
-			[
-               "Peripherals", "EVENT SYSTEM"
-            ],
-			[
-               "Peripherals", "GPIO"
-            ]
-        ],
-        "peripherals": [
-            "CCL","USART","TCB","EVENT SYSTEM","GPIO"
-        ],
-        "keywords": [
-            "MCC",
-			"AVR DA",
-			"AVR128DA48",
-            "3-Bit Ring Counter",
-			"Curiosity Nano Board",
-			"Flipflop",
-			"Sequential logic",
-			"Combinational",
-			"Logic gates",
-			"OR gate",
-			"AND gate",
-			"Digital"
-        ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+  "metaDataVersion": "1.0.0",
+  "category": "com.microchip.ide.project",
+  "content": {
+    "metaDataVersion": "1.1.0",
+    "name": "com.microchip.mcu8.mplabx.project.avr128da48-3bit-ring-counter-mcc-example",
+    "version": "1.0.6",
+    "displayName": "3-bit Ring Counter MPLABX example",
+    "projectName": "avr128da48-3bit-ring-counter-mcc-example",
+    "shortDescription": "AVR128DA48 3-bit ring counter implementation using CCL peripheral",
+    "ide": {
+      "name": "MPLABX",
+      "semverRange": ">=5.40.0"
+    },
+    "compiler": [
+      {
+        "name": "XC8",
+        "semverRange": "^2.20.0"
+      }
+    ],
+    "dfp": {
+      "name": "AVR-Dx_DFP",
+      "semverRange": "^1.3.65"
+    },
+    "configurator": {
+      "name": "MCC",
+      "semverRange": ">=3.95.0"
+    },
+    "device": {
+      "metaDataVersion": "1.0.0",
+      "category": "com.microchip.portal.contentRef",
+      "content": {
+        "metaDataVersion": "1.0.0",
+        "category": "com.microchip.device",
+        "name": "AVR128DA48",
+        "versionRange": "*"
+      }
+    },
+    "author": "Microchip",
+    "subcategories": [
+      "MCC",
+      ["Peripherals", "CCL"],
+      ["Peripherals", "USART"],
+      ["Peripherals", "TCB"],
+      ["Peripherals", "EVENT SYSTEM"],
+      ["Peripherals", "GPIO"]
+    ],
+    "peripherals": ["CCL", "USART", "TCB", "EVENT SYSTEM", "GPIO"],
+    "keywords": [
+      "MCC",
+      "AVR DA",
+      "AVR128DA48",
+      "3-Bit Ring Counter",
+      "Curiosity Nano Board",
+      "Flipflop",
+      "Sequential logic",
+      "Combinational",
+      "Logic gates",
+      "OR gate",
+      "AND gate",
+      "Digital"
+    ],
+    "additionalData": {
+      "longDescription": {
+        "metaDataVersion": "1.0.0",
+        "category": "com.microchip.portal.fileRef",
+        "content": {
+          "metaDataVersion": "1.0.0",
+          "fileName": "./README.md",
+          "mimeType": "text/markdown"
+        }
+      }
+    }
+  }
 }
